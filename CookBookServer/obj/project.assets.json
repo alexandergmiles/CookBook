@@ -681,26 +681,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alexander\\.nuget\\packages\\": {}
+    "/Users/alexandergmiles/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alexander\\source\\repos\\CookBook\\CookBookServer\\CookBookServer.csproj",
+      "projectUniqueName": "/Users/alexandergmiles/Development/CookBook/CookBookServer/CookBookServer.csproj",
       "projectName": "CookBookServer",
-      "projectPath": "C:\\Users\\Alexander\\source\\repos\\CookBook\\CookBookServer\\CookBookServer.csproj",
-      "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alexander\\source\\repos\\CookBook\\CookBookServer\\obj\\",
+      "projectPath": "/Users/alexandergmiles/Development/CookBook/CookBookServer/CookBookServer.csproj",
+      "packagesPath": "/Users/alexandergmiles/.nuget/packages/",
+      "outputPath": "/Users/alexandergmiles/Development/CookBook/CookBookServer/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Alexander\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/alexandergmiles/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -760,7 +762,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }
