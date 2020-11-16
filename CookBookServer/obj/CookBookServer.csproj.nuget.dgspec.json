@@ -1,28 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/alexandergmiles/Development/CookBook/CookBookServer/CookBookServer.csproj": {}
+    "C:\\Users\\Alexander\\source\\repos\\CookBook\\CookBookServer\\CookBookServer.csproj": {}
   },
   "projects": {
-    "/Users/alexandergmiles/Development/CookBook/CookBookServer/CookBookServer.csproj": {
+    "C:\\Users\\Alexander\\source\\repos\\CookBook\\CookBookServer\\CookBookServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/alexandergmiles/Development/CookBook/CookBookServer/CookBookServer.csproj",
+        "projectUniqueName": "C:\\Users\\Alexander\\source\\repos\\CookBook\\CookBookServer\\CookBookServer.csproj",
         "projectName": "CookBookServer",
-        "projectPath": "/Users/alexandergmiles/Development/CookBook/CookBookServer/CookBookServer.csproj",
-        "packagesPath": "/Users/alexandergmiles/.nuget/packages/",
-        "outputPath": "/Users/alexandergmiles/Development/CookBook/CookBookServer/obj/",
+        "projectPath": "C:\\Users\\Alexander\\source\\repos\\CookBook\\CookBookServer\\CookBookServer.csproj",
+        "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alexander\\source\\repos\\CookBook\\CookBookServer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/alexandergmiles/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Alexander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -41,6 +40,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[5.0.0, )",
@@ -78,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

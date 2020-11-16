@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CookBookServer.Interfaces;
+using CookBookServer.Repos;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,6 +30,11 @@ namespace CookBookServer
         {
 
             services.AddControllers();
+            
+            //We want the repo to be a singleton because it's storing data
+            services.AddSingleton<IRecipeRepository, RecipeRepository>();
+            
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CookBookServer", Version = "v1" });
